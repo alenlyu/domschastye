@@ -278,3 +278,33 @@
   /* ---------- FOOTER ---------- */
   footer{ background:var(--indigo-deep); color:#404c4c; text-align:center; padding:2.6rem 6vw; font-size:0.82rem; }
   footer strong{ color:var(--aqua-light); }
+
+
+/* LANG SWITCH */
+.language-switch {
+  display: flex;
+  align-items: center;
+  gap: 0.35rem;
+  font-size: 0.82rem;
+  font-weight: 700;
+  white-space: nowrap;
+}
+
+.language-switch a {
+  text-decoration: none;
+  color: var(--ink-soft);
+  transition: color 0.2s ease;
+}
+
+.language-switch a:hover {
+  color: var(--petrol);
+}
+
+.language-switch a.active {
+  color: var(--petrol);
+}
+
+.language-switch span {
+  color: var(--ink-soft);
+  opacity: 0.4;
+}
